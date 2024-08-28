@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Css -->
+  <link rel="icon" href="assets/TBN.jpeg" width="100" height="100" type="image/icon type">
+  <link rel="stylesheet" href="mycss/custom.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- Js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="js/jquery-3.7.1.js"></script>
+<script src="myjs/index.js"></script>
+
+   <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>The Bridge NETWORK</title>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-danger fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand me-auto" href="#">
+      <img class="logo" src="assets/TBN.jpeg">
+      <span class="white">TBN CHILDREN & TEENS CHURCH</span>
+    </a>
+    <div class="offcanvas offcanvas-end white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+<img src="assets/TBN.jpeg" class="logo">
+          TBN
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Home Default</a></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ministry
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Children's Ministry</a></li>
+              <li><a class="dropdown-item" href="#">Teens Ministry</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Groups</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sermons
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Christ-occupied</a></li>
+              <li><a class="dropdown-item" href="#">God's love</a></li>
+              <li><a class="dropdown-item" href="#">Faithfulness</a></li>
+              <li><a class="dropdown-item" href="#">PRAISE HIM</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Image Gallery</a></li>
+              <li><a class="dropdown-item" href="#"> Video Gallery</a></li>
+              <li><a class="dropdown-item" href="#">Blog list</a></li>
+              <li><a class="dropdown-item" href="#"> Blog Single</a></li>
+              <li><a class="dropdown-item" href="#"> Events & Programs</a></li>
+              <li><a class="dropdown-item" href="#"> Event Single</a></li>
+              <li><a class="dropdown-item" href="#"> Event Calendar</a></li>
+              <li><a class="dropdown-item" href="#">Charity & Donations</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#"> OTHER PAGES</a></li>
+              <li><a class="dropdown-item" href="#">Prayers</a></li>
+              <li><a class="dropdown-item" href="#"> FAQ</a></li>
+              <li><a class="dropdown-item" href="#"> Shortcodes</a></li>
+              <li><a class="dropdown-item" href="#"> Left Sdebar</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <a href="#" class="login-button">Log-In </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+  <main>
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+           <img class="carousel-image-1 img-fluid" src="assets/tbn chld curch car backup.jpeg">
+          <div class="container">
+            <div class="carousel-caption text-start">
+          
+              <p class="opacity-75"><h2>Experience God's</h2><h1> Unceasing Provision. </h1></p>
+              <p><a class="btn btn-lg btn-primary" href="#">JOIN US ➡︎</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+          <img class="carousel-image img-fluid" src="assets/child church tbn car backup backup.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="text-dark">Waves Of Grace.</h1>
+              <p class="text-dark">Receive the unceasing wave after wave, after wave, after wave of Grace God has for you.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more ➡ ︎</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+          <img class="carousel-image-3 img-fluid" src="assets/chhildren church tbn car 3.jpeg">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Grace And Truth</h1>
+              <p>For God did not send his Son into the world to condemn the world, but to save the world through him. --John 3:17.</p>
+              <p><a class="btn btn-lg btn-primary" href="#gallery">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class=" prev carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class=" next carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- ENd Of CAROUSEL -->
+
+
+<!-- Upcoming Events -->
+<div class="container-fluid upcoming text-center" style="padding:40px;">
+  <div class="row">
+    <div class="col-md-8 col-sm-6">
+      <h6>UPCOMING-Events!!!🥳🤩</h6>
+      <h3 class="h3">Summer Fasting!!!  -- BY CHILDREN & TEENS TEACHER</h3>
+      <p class="counter timer">ENDS IN:</p>
+      <p class="counter timer" id="days"></p>
+      <p class="counter timer" id="hours"></p>
+      <p class="counter timer" id="mins"></p>
+      <p class="counter timer" id="secs"></p>
+      <h4 id="end"></h4>
+       
+    </div>
+    <div class="col-md-4 col-sm-6" style="padding: 40px;">
+      <button class="btn-primary upcoming-button">Program Details</button> 
+    </div>
+
+  </div>
+</div>
+  <br>
+  <br>
+<!-- FEATURED -->
+<div class="album py-5 bg-body-tertiary">
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/thumb-2.jpg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-text">Children's Ministry</h4>
+            <p class="card-text">Experience God's Wisdom each day as you are lead by the Holy Spirit. Walk effortlessly into success and happiness and understand the Father's love for yo all live from the Bridge Network Children Church ministry. Truly children are the heritage of the Lord</p>
+            <a href="#" class="card-text text-decoration">View Details➡︎</a>
+          </div>
+          <hr>
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <small class="text-body-secondary">6 days ago</small>
+            </div>
+          </div>
+        </div>
+      
+   
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/column-1.jpg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-text">Teens ministry</h4>
+            <p class="card-text">Jesus came and fulfilled the laws, the only one who could keep the laws so that in Him we can be made righteous and not have to suffer death for our sins. Join our Youth Ministry Now.
+            </p>
+            <a href="#" class="card-text text-decoration">View Details➡︎</a>
+          </div>
+          <hr>
+            <div class="d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">6 days</small>
+            </div>
+          </div>
+        </div>
+  
+    
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/thumb-3.jpg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-text"><a href="#" class="text-decoration">Our Ministers</a></h4>
+          <p class="card-text">It may sound good to Mankind to be self-occupied. But God wants you to be Christ-Occupied and receive all of your blessings through resting in the work of Jesus.
+          </p>
+          <a href="#" class="card-text text-decoration">View Details➡︎</a>
+          </div>
+          <hr>
+            <div class="d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">Last Updated: 3 years ago. Edited : 17 years ago</small>
+            </div>
+          </div>
+        </div>
+    
+      
+   
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<!-- Gallery -->
+<h3 class="text-center text-danger">Gallery</h3>
+<br>
+<div class="container" id="gallery">
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+    <div class="card">
+      <img src="assets/kids and teens.jpeg" class="card-img-top" alt="..">
+    </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+    <div class="card">
+      <img src="assets/gallery_thumb_2.jpg" class="card-img-top" alt="...">
+    </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+    <div class="card">
+      <img src="assets/gallery_thumb_3.jpg" class="card-img-top" alt="...">
+    </div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-lg-4 col-sm-12 col-md-6">
+    <div class="card">
+      <img src="assets/gallery_thumb_4.jpg" class="card-img-top" alt="...">
+    </div>
+    </div>
+    <div class="col-lg-4 col-sm-12 col-md-6">
+    <div class="card">
+      <img src="assets/gallery_thumb_8.jpg" class="card-img-top" alt="...">
+    </div>
+    </div>
+    <div class="col-lg-4 col-sm-12 col-md-6">
+    <div class="card">
+      <img src="assets/gallery_thumb_7.jpg" class="card-img-top" alt="...">
+    </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12  col-md-12">
+    <textarea placeholder="ENTER YOUR TESTIMONIES"></textarea>
+    <button href="https://mail.google.com/mail/u/4/#inbox" class="btn-primary testimony">SUBMIT</button>
+  </div>
+  </div>
+  <div class="col-md-12 col-sm-12 bg-dark text-light cover">
+<h1 class="text-center">Testimony For The Week</h1>
+<p class="lead text-center">Greetings Dear Brothers And Sisters, I come unto you to share with you all a testimony. Last week my sister did a thing with really annoyed. She poured water all over my laptop. I told my dad as soon as possible. My dad put the laptop in a bag of rice. from what i heared him saying it says that this will drain all the water from my laptop as soon as possible. He left it for 1-2 Days and by the time he got it out and dusted the rice particles of it. I turned it on and to God Be The Glory It still works up to this very point and it will continue to do so. I will ike to return all the glory to God For his mercy he has shown to me. Hallelujah OLA OLA OLA  Fire!!! 🔥🔥🔥🔥🔥🔥. Praise the lord of the brige network city church</p>
+<p>...Brother Reboath</p>
+
+</div>
+</div>
+
+  </main>
+  <br>
+  <br>
+  <br>
+  <hr>
+<div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>JOIN YOUR KIDS AND TEENS NOW!!!</h5>
+            <p>It wouldn't be a mistake. Trust Us you wouldn't regret it</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="name">
+                    <input type="text" placeholder="Full Name">
+                </label>
+                <!-- <label for="name">
+                    <input type="text" placeholder="Last Name">
+                </label> -->
+                <label for="email">
+                    <imput type="text" placeholder="Enter you Email here"></imput>
+                </label>
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Sign Up</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/tbn.teens/"><img src="icons copy/icons8-instagram-windows-11-color//iOS/icons8-instagram-48(@1×).png"></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/profile.php?id=100075899259499"><img src="icons copy/icons8-facebook-windows-11-color/iOS/icons8-facebook-48(@1×).png"></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="icons copy/icons8-gmail-color/icons8-gmail-48.png"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
